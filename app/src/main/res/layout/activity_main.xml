@@ -18,7 +18,7 @@
     android:padding="20dp"
     android:textColor="#FFFFFF"
     android:textSize="36sp"
-    android:text="Happy Birthday.. Ben !"
+    android:text="Happy Birthday, Ben !"
     android:id="@+id/textView"
     android:fontFamily="sans-serif"/>
 
