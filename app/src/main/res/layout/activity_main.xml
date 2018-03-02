@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bday"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bday"
+        />
+<TextView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:padding="20dp"
+    android:textColor="#FFFFFF"
+    android:textSize="36sp"
+    android:text="Happy Birthday.. Ben !"
+    android:id="@+id/textView"
+    android:fontFamily="sans-serif"/>
+
+
+
+    <TextClock
+        android:id="@+id/textClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="25dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        tools:ignore="NewApi" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:padding="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:text="From, SAHIL"
+         />
+</RelativeLayout>
